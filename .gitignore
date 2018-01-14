@@ -37,9 +37,13 @@
 ehthumbs.db
 Thumbs.db
 __pycache__
+.coverage
+htmlcov
 
 # Envirement
 env
 venv
 env_dev
 env_test
+
+#Don't track

@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Yusup Khasbulatov> -- <Developer> -- <@khashashin>
 
 # THANKS
 
-    <name>
+    Thanks to all my Blog readers.
 
 # TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
+    Django
+    Twitter Bootstrap
+    HTML5, CSS3, Boilerplate
     jQuery, Modernizr

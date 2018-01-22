@@ -47,3 +47,4 @@ env_dev
 env_test
 
 #Don't track
+taskbuster/fixtures

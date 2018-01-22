@@ -15,12 +15,15 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
+from django.contrib.auth.views import logout
 from django.urls import path, re_path, include
 from django.conf.urls.i18n import i18n_patterns
 from .views import home, home_files
 
 urlpatterns = [
     re_path(r'^(?P<filename>(robots.txt)|(humans.txt))$', home_files, name='home-files'),
+    # re_path(r'^accounts/logout/$', logout, {'next_page': '/'}),
+    re_path(r'^accounts/', include('allauth.urls')),
 ]
 
 urlpatterns += i18n_patterns(
